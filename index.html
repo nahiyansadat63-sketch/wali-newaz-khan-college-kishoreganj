@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Wali Newaz Khan College, Kishoreganj - college information and campus gallery.">
+<title>Wali Newaz Khan College | Kishoreganj</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="seal">WNK</div>
+    <div><strong>ওয়ালী নেওয়াজ খান কলেজ</strong><small>কিশোরগঞ্জ</small></div>
+  </div>
+  <button class="menu-btn" aria-label="মেনু" onclick="document.querySelector('nav').classList.toggle('show')">☰</button>
+  <nav>
+    <a href="#home">হোম</a><a href="#about">কলেজ পরিচিতি</a><a href="#gallery">ক্যাম্পাস গ্যালারি</a><a href="#notice">নোটিশ</a><a href="#contact">যোগাযোগ</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-shade"></div>
+  <div class="hero-content">
+    <span class="eyebrow">WELCOME TO OUR CAMPUS</span>
+    <h1>ওয়ালী নেওয়াজ খান কলেজ</h1>
+    <p>জ্ঞান, শৃঙ্খলা ও সুন্দর ভবিষ্যৎ গড়ার প্রত্যয়ে</p>
+    <a class="primary" href="#about">কলেজ সম্পর্কে জানুন</a>
+  </div>
+</section>
+
+<section class="intro section" id="about">
+  <div class="section-heading"><span>ABOUT OUR COLLEGE</span><h2>আমাদের কলেজ</h2></div>
+  <p>ওয়ালী নেওয়াজ খান কলেজ, কিশোরগঞ্জের শিক্ষাঙ্গন ও ক্যাম্পাসের কিছু ছবি এখানে তুলে ধরা হয়েছে। কলেজের ইতিহাস, বিভাগ, শিক্ষকবৃন্দ, ভর্তি সংক্রান্ত তথ্য এবং অন্যান্য তথ্য কলেজ কর্তৃপক্ষের যাচাই করা তথ্য দিয়ে পরে যুক্ত করা যাবে।</p>
+  <div class="info-grid">
+    <article><b>📍 অবস্থান</b><span>কিশোরগঞ্জ, বাংলাদেশ</span></article>
+    <article><b>🎓 শিক্ষার পরিবেশ</b><span>শিক্ষা ও সহশিক্ষা কার্যক্রম</span></article>
+    <article><b>🏫 ক্যাম্পাস</b><span>ক্যাম্পাসের নির্বাচিত দৃশ্য</span></article>
+  </div>
+</section>
+
+<section class="gallery section" id="gallery">
+  <div class="section-heading"><span>CAMPUS MOMENTS</span><h2>ক্যাম্পাস গ্যালারি</h2><p>তোমার দেওয়া ক্যাম্পাসের ছবিগুলো</p></div>
+  <div class="photos">
+    <figure><img src="assets/campus-1.jpg" alt="কলেজ ক্যাম্পাসের ভবন ও মাঠ"><figcaption>ক্যাম্পাস ভবন</figcaption></figure>
+    <figure><img src="assets/campus-2.jpg" alt="গাছপালা ও কলেজ ভবন"><figcaption>সবুজ ক্যাম্পাস</figcaption></figure>
+    <figure><img src="assets/campus-3.jpg" alt="কলেজ ভবনের সামনের অংশ"><figcaption>কলেজ প্রাঙ্গণ</figcaption></figure>
+    <figure><img src="assets/campus-4.jpg" alt="কলেজ ভবন ও সবুজ মাঠ"><figcaption>শিক্ষাঙ্গনের পরিবেশ</figcaption></figure>
+  </div>
+</section>
+
+<section class="notice section" id="notice">
+  <div class="section-heading"><span>NOTICE BOARD</span><h2>নোটিশ বোর্ড</h2></div>
+  <div class="notice-box"><b>নোটিশ</b><p>এখানে কলেজের যাচাইকৃত নোটিশ, পরীক্ষার সময়সূচি ও ভর্তি সংক্রান্ত ঘোষণা প্রকাশ করা হবে।</p><small>ডেমো ওয়েবসাইট — এখনো কোনো অফিসিয়াল নোটিশ প্রকাশ করা হয়নি।</small></div>
+</section>
+
+<section class="contact section" id="contact">
+  <div class="section-heading"><span>GET IN TOUCH</span><h2>যোগাযোগ</h2></div>
+  <p>ওয়ালী নেওয়াজ খান কলেজ, কিশোরগঞ্জ, বাংলাদেশ</p>
+  <p class="muted">ফোন, ইমেইল, EIIN এবং অফিসিয়াল ঠিকানা কলেজ কর্তৃপক্ষের কাছ থেকে নিশ্চিত করে এখানে যোগ করতে হবে।</p>
+</section>
+</main>
+<footer>© <span id="year"></span> Wali Newaz Khan College, Kishoreganj · Student-made demo website</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body></html>
